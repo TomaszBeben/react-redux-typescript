@@ -2,10 +2,10 @@ import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 import type { RootState } from '../store/store';
 
-interface Tproducts {
-  title: string;
-  price: number;
-  id: number;
+export type Tproducts = {
+  title: string,
+  price: number,
+  id: number,
 }
 
 const initialProd:Tproducts[] = [
